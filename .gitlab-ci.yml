@@ -1,0 +1,19 @@
+image: node:alpine
+
+# variables:
+#   PUBLIC_URL: "/manuelhernandezchallenge"
+
+pages:
+  stage: deploy
+  script:
+    - npm install
+    #- npm test
+    - npm run build
+    - rm -Rf public/*
+    - mv build/* public/
+    - cp public/index.html public/404.html
+  artifacts:
+    paths:
+      - public
+  only:
+    - ManuelDeploy

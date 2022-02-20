@@ -1,0 +1,47 @@
+Desarrolla en esta carpeta los tests unitarios y deja los fuentes de pruebas (postman...)
+
+- Los Test Unitarios se encuentran en esta misma carpeta. (codechallenge-react-junior\manuel-hernandez-code-challenge-react-junior\src\tests)
+
+## Ejemplos de funcionamiento del api con PostMan⚙️
+
+### Partiendo de la Url del API https://my-user-manager.herokuapp.com/users/
+
+Podemos hacer una petición GET a https://my-user-manager.herokuapp.com/users/
+Con la que obtenemos la siguiente respuesta en formato JSON
+
+```
+[
+   {
+       "id": 1,
+       "name": "Daniela Diaz",
+       "email": "daniela.diaz@example.com"
+   },
+   {
+       "id": 2,
+       "name": "Arthur Jensen",
+       "email": "arthur.jensen@example.com"
+   },
+   {
+       "id": 3,
+       "name": "Virginia Fernandez",
+       "email": "virginia.fernandez@example.com"
+   },
+   {
+       "id": 4,
+       "name": "Angel Gilbert",
+       "email": "angel.gilbert@example.com"
+   }
+]
+```
+
+Para hacer peticiones más específicas sobre cada elemento del Api podemos usar el ID proporcionado
+Podemos hacer una peticion GET a https://my-user-manager.herokuapp.com/users/2
+Con la que obtenemos la siguiente respuesta en formato JSON (En este caso seleccionando el, id 2)
+
+```
+{
+    "id": 2,
+    "name": "Arthur Jensen",
+    "email": "arthur.jensen@example.com"
+}
+```

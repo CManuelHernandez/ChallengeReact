@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <UserCard /> snapshot testing 1`] = `
+<div
+  className="userCardView card"
+>
+  <div
+    className="card-body"
+  >
+    <div
+      className="card-title h5"
+    >
+      <strong>
+        ID :
+      </strong>
+       
+    </div>
+    <p
+      className="card-text"
+    >
+      NAME: 
+    </p>
+    <p
+      className="card-text"
+      style={
+        Object {
+          "textAlign": "justify",
+        }
+      }
+    >
+      EMAIL: 
+    </p>
+    <a
+      className="btnPrimary btn btn-primary"
+      href="/undefined"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      Detail
+    </a>
+  </div>
+</div>
+`;

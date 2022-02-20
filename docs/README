@@ -1,0 +1,9 @@
+Por favor, deja en esta carpeta el documento explicativo de la prueba
+
+#Carlos Manuel Hernández Montero
+Aplicación realizada con React donde se muestra mediante cards la información
+recogida de la api https://my-user-manager.herokuapp.com/users, a la cual a su vez se puede
+acceder al detalle de cada uno de estos mediante un boton que hace de enlace a su sección.
+
+La aplicación se encuentra desplegada en la siguiente URL https://elegant-hawking-f6f065.netlify.app/
+

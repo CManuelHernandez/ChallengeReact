@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <UserDetailPage /> snapshot testing 1`] = `
+<div
+  className="userSection container-fluid"
+>
+  <h2
+    className="userSubtitle"
+  >
+    User Info
+  </h2>
+  <div
+    className="userWrapper container"
+  >
+    <div
+      className="userCardViewDetail card"
+    >
+      <div
+        className="row"
+      >
+        <button
+          className="btn btn-danger"
+          disabled={true}
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+            className="spinner-grow spinner-grow-sm"
+            role="status"
+          />
+          Loading...
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

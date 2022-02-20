@@ -1,0 +1,77 @@
+.userSection {
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 30px;
+}
+.userCard {
+  color: white;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: auto;
+}
+.userCardView,
+.userCardViewDetail {
+  box-shadow: 0 0 15px #b9292f;
+  background-color: transparent;
+  opacity: 0.9;
+  transition: all 0.5s ease 0s;
+  height: 100%;
+  background-color: #b8bab7;
+}
+.userCardView:hover,
+.userCardViewDetail:hover {
+  transform: scale(1.02);
+  overflow: hidden;
+  box-shadow: 0 0 5px #b9292f;
+}
+.userCardView {
+  background-color: #bbbcbc;
+}
+.btnPrimary {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.75rem;
+  color: #f4e7e6;
+  font-weight: bold;
+  background-color: #db2529;
+  border-color: #db2529;
+}
+.btnDetail {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 0.75rem 0.75rem 0;
+}
+.btnPrimary:hover {
+  background-color: #b9292f;
+  border-color: #b9292f;
+}
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+.userHeading,
+.userSubtitle {
+  color: whitesmoke;
+  font-size: 2.3em;
+  font-weight: 500;
+  padding-top: 10px;
+}
+.userSubtitle {
+  text-align: center;
+  font-size: 1.8em;
+}
+.userInfoTitle h1,
+.userInfoTitle p {
+  display: flex;
+  justify-content: center;
+}
+.userDetailInfoText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+}

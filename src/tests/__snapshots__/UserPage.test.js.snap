@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test on <UserPage /> snapshot testing 1`] = `
+<div
+  className="userSection container-fluid"
+>
+  <div
+    className="userWrapper container"
+  >
+    <div
+      className="userInfoTitle col-md-12"
+    >
+      <div>
+        <h1
+          className="userHeading"
+        >
+          Code Challenge  
+          <strong
+            className="turquoise"
+          >
+             React 
+          </strong>
+            Junior
+        </h1>
+        <h2
+          className="userSubtitle"
+        >
+          Carlos Manuel Hernández Montero
+        </h2>
+      </div>
+    </div>
+    <div
+      className="row"
+      style={
+        Object {
+          "justifyContent": "center",
+          "paddingBottom": "10px",
+        }
+      }
+    >
+      <button
+        className="btn btn-danger"
+        disabled={true}
+        type="button"
+      >
+        <span
+          aria-hidden="true"
+          className="spinner-grow spinner-grow-sm"
+          role="status"
+        />
+        Loading...
+      </button>
+    </div>
+  </div>
+</div>
+`;
